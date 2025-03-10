@@ -6,15 +6,15 @@ st.title("Faktureringsberäknare")
 
 # Create the data
 data = {
-    'dp': ['DP1', 'DP2', 'DP3', 'DP4'],  # Character values
-    'no': [1, 2, 3, 4]             # Numeric values
+    'dp': ['DP1', 'DP2', 'DP3','DP4','DP5','DP6','DP7','DP8','DP9'],  # Character values
+    'no': [1, 2, 3, 4, 1, 1, 1, 1, 1]             # Numeric values
 }
 
 # Create the DataFrame
 df = pd.DataFrame(data)
 
 # Create a dropdown based on the 'dp' column
-selected_dp = st.selectbox('Select a DP:', df['dp'])
+selected_dp = st.selectbox('Välj detaljplan:', df['dp'])
 #selected_no = df[selected_dp,'no']
 # Extract the corresponding 'total_gwr' value
 total_gwr_value = df.loc[df['dp'] == selected_dp, 'no'].iloc[0]
