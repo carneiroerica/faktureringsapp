@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Faktureringsberäknare")
 
 # Användaren matar in ett fakturabelopp
-belopp = st.number_input("Ange fakturans total belopp:", min_value=0.0, step=100.0)
+belopp = st.number_input("Ange fakturans totalbelopp:", min_value=0.0, step=100.0)
 
 # Beräkning och visning av resultat
 if belopp > 0:
