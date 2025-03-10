@@ -15,7 +15,7 @@ df = pd.DataFrame(data)
 
 # Create a dropdown based on the 'dp' column
 selected_dp = st.selectbox('Select a DP:', df['dp'])
-selected_no = df[selected_dp,no]
+selected_no = df[selected_dp,'no']
 # Extract the corresponding 'total_gwr' value
 total_gwr_value = df.loc[df['dp'] == selected_dp, 'no'].iloc[0]
 
