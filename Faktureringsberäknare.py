@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Sidrubrik
-st.title("Faktureringsberäknare - GWR Structor")
+st.title("Faktureringsberäknare - GWR")
 
 # Create the data
 data = {
