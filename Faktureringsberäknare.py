@@ -6,8 +6,8 @@ st.title("Faktureringsberäknare - GWR")
 
 # Create the data
 data = {
-    'dp': ['DP1', 'DP2','DP4','DP5','DP10'],  # Character values
-    'no': [40, 24, 7, 11, 4]             # Numeric values
+    'dp': ['DP1','DP2','DP3','DP4','DP5','DP6','DP7','DP8','DP9','DP10','DPÖ'],  # Character values
+    'no': [2, 9, 0, 7, 3, 0, 0, 0, 0, 6, 37]             # Numeric values
 }
 
 # Create the DataFrame
